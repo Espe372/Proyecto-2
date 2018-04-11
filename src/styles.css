@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+.menu-inicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 500ms all;
+}
+.box span{
+    font-size: 80px;
+
+}
+.box p{
+    color: white;
+    font-size: 26;
+
+}
+.rojo { background-color: rgb(163, 73, 247);}
+
+.rojo:hover { background-color: rgb(126, 56, 190);}
+
+.rojo span {color: rgb(81, 20, 138);}
+
+.verde span {color:  rgb(91, 138, 20) }
+
+.verde { background-color: rgb(161, 228, 60)}
+
+.verde:hover { background-color: rgb(119, 172, 41)}
+
+.azul { background-color: rgb(87, 173, 223)}
+
+.azul:hover { background-color: rgb(62, 140, 185)}
+
+.azul span { color: rgb(31, 115, 163) }
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.titulo span{
+    font-size: 20px;
+}
+.formulario{
+    padding:20px 20px 40px;
+}
